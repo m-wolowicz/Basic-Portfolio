@@ -229,10 +229,17 @@ footer {
 	margin-right: 25px;
 }
 
+.port-image:hover {
+	opacity: 0.5;
+}
+
 /* Contact Page */
 
 #contact-form ul {
 	margin-bottom: 20px;
+	list-style-type: none;
+	list-style-position: inside;
+	margin-left: -40px;
 }
 
 #contact-form li {
@@ -258,6 +265,7 @@ textarea {
 
 textarea {
 	height: 200px;
+	padding: 10px;
 }
 
 input[type=submit] {

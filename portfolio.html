@@ -1,4 +1,4 @@
-<<!-- Homework Assingment: Basic Portfolio Page Portfolio Page -->
+<!-- Homework Assingment: Basic Portfolio Page Portfolio Page -->
 
 <!DOCTYPE html>
 <html lang="en-us">
@@ -9,6 +9,9 @@
 	<!-- Linking the normalize.css FIRST, and then my own CSS -->
 	<link rel="stylesheet" type="text/css" href="assets/css/normalize.css">
 	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+
+	<!-- Linking Google Font Lobster for MW's logo -->
+	<link href="https://fonts.googleapis.com/css?family=Lobster|Raleway:400,500,700" rel="stylesheet">
 
 </head>
 
@@ -32,7 +35,9 @@
 
 <!-- Portfolio Page Content -->
 	<div id="main-container" class="container">
-		<section class="main-section">
+
+		<!-- Porfolio Section -->
+			<section class="main-section">
 			<h1>Portfolio</h1>
 
 			<div class="work">
@@ -71,24 +76,21 @@
 			<div id="connect">
 				<h2>Connect With Me</h2>
 
-				<a href="https://github.com/m-wolowicz" target="_blank">
-					<img src="assets/images/github.svg" class="social" alt="GitHub">
-				</a>
-				<a href="https://www.linkedin.com/in/mwolowicz/" target="_blank">
-					<img src="assets/images/linkedin.svg" class="social" alt="LinkedIn">
-				</a>
-				<a href="https://stackoverflow.com/users/8768790/mwolowicz" target="_blank">
-					<img src="assets/images/stackoverflow.svg" class="social" alt="Stack Overflow">
-				</a>
+				<a href="https://github.com/m-wolowicz" target="_blank"><img src="assets/images/github.svg" class="social" id="git" alt="GitHub"></a>
+				<a href="https://www.linkedin.com/in/mwolowicz/" target="_blank"><img src="assets/images/linkedin.svg" class="social" id="linked" alt="LinkedIn"></a>
+				<a href="https://stackoverflow.com/users/8768790/mwolowicz" target="_blank"><img src="assets/images/stackoverflow.svg" class="social" id="stack" alt="Stack Overflow"></a>
+
 			</div>
 		</section>
-		
+
 	</div>
 
+<!-- Footer -->
 	<footer>
 		<div class="container">
 			&copy; Copyright 2017 Melissa Wolowicz
 		</div>
 	</footer>
+	
 </body>
 </html>

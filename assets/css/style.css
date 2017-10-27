@@ -6,10 +6,10 @@
 
 body {
 	background: url('../images/ricepaper2.png');
-	font-size: 18px;
-	line-height: 34px;
-	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
-	color: #777;
+	font-size: 112.5%;
+	line-height: 212.5%;
+	font-family: 'Helvetica Neue', Helvetica, sans-serif;
+	color: #777777;
 }
 
 .container {
@@ -30,9 +30,10 @@ p:last-child {
 }
 
 h1, h2, h3 {
-	font-family: 'Georgia', Times, Times New Roman, serif;
+	font-family: 'Raleway', sans-serif;
 	font-weight: 700;
-	color: #4aaaa5;
+	color: #685040;
+	text-transform: uppercase;
 }
 
 h1 {
@@ -43,7 +44,7 @@ h1 {
 }
 
 h2, h3 {
-	font-size: 22px;
+	font-size: 20px;
 }
 
 
@@ -60,38 +61,49 @@ h2, h3 {
 	width: 100%;
 }
 
-#logo {
-	width: 350px;
-	height: 90px;
-	background: #4aaaa5;
-	float: left;
-	font-family: 'Georgia', Times, Times New Roman, serif;
-	text-align: center;
-	line-height: 90px;
-	color: #fff;
-	font-weight: 700;
-	font-size: 30px;
-	text-decoration: none;
-}
+	/* Logo */
+	#logo {
+		width: 350px;
+		height: 90px;
+		background: #009F93;
+		float: left;
+		font-family: 'Lobster', cursive;
+		text-align: center;
+		line-height: 90px;
+		color: #ffffff;
+		font-size: 187.5%;
+		text-decoration: none;
+		letter-spacing: 1px;
+	}
 
-nav {
-	float: right;
-	margin-top: 25px;
-}
+	#logo:hover {
+		background-color: #FAA634;
+	}
 
-nav a {
-	color: #999;
-	text-decoration: none;
-	margin-left: 15px;
-	display: inline-block;
-	border-left: 1px solid #efefef;
-	padding-left: 15px;
-	line-height: 18px
-}
+	/* Navigation Links */
+	nav {
+		float: right;
+		margin-top: 25px;
+	}
 
-nav a:first-child {
-	border-left: 0 none;
-}
+	nav a {
+		color: #999999;
+		text-decoration: none;
+		text-transform: uppercase;
+		margin-left: 15px;
+		display: inline-block;
+		border-left: 1px solid #efefef;
+		padding-left: 15px;
+		line-height: 18px
+	}
+
+	nav a:first-child {
+		border-left: 0 none;
+	}
+
+	nav a:hover {
+		color: #009F93;
+	}
 
 /* Main Sections in each page*/
 
@@ -115,6 +127,11 @@ nav a:first-child {
 	margin-top: 10px;
 	float: left;
 	margin-right: 25px;
+	border: 2px solid #FAA634;
+}
+
+.auth-image:hover {
+	opacity: 0.5;
 }
 
 /* Sidebars in each page*/
@@ -147,6 +164,22 @@ h3, .sidebar, h2 {
 	margin-right: 0;
 }
 
+/* Hovers for social icons*/
+
+#git, #linked, #stack {
+	background-color: #FAA634;
+}
+#git:hover {
+	background-color: #009F93;
+}
+
+#linked:hover {
+	background-color: #009F93;
+}
+
+#stack:hover {
+	background-color: #009F93;
+}
 /* Footer */
 
 footer {
@@ -154,7 +187,7 @@ footer {
 	color: #fff;
 	padding: 30px 0;
 	clear: both;
-	border-top: 8px solid #4aaaa5;
+	border-top: 8px solid #009F93;
 	color: #ccc;
 	font-size: 12px;
 	text-align: center;
@@ -176,7 +209,7 @@ footer {
 
 .work h3 {
 	border-bottom: 0;
-	background: #4aaaa5;
+	background: #009F93;
 	color: #fff;
 	text-align: center;
 	position: absolute;
@@ -228,10 +261,16 @@ textarea {
 }
 
 input[type=submit] {
-	background: #4aaaa5;
+	background: #009F93;
 	border: 0 none;
 	color: #fff;
 	font-size: 18px;
 	padding: 10px 30px;
 	cursor: pointer;
 }
+
+input[type=submit]:hover {
+	background-color: #FAA634;
+}
+
+

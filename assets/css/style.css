@@ -184,12 +184,13 @@ h3, .sidebar, h2 {
 /* Footer */
 
 footer {
-	background: #666;
+	background: #dddddd;  /* fallback for old browsers */
+	background: -webkit-linear-gradient(to top, #c4c4c4, #1b1b1b);  /* Chrome 10-25, Safari 5.1-6 */
+	background: linear-gradient(to top, #c4c4c4, #1b1b1b); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 	color: #fff;
 	padding: 30px 0;
 	clear: both;
 	border-top: 8px solid #009F93;
-	color: #ccc;
 	font-size: 12px;
 	text-align: center;
 	position: fixed;

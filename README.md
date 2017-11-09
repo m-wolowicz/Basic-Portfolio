@@ -1,5 +1,8 @@
 # Basic-Portfolio
-Homework Assignment: build a professional portfolio site using HTML/CSS.
+Trilogy Education Services
+University of Miami Cohort - 201710FSF3
+Week 01 Homework Assignment:
+Build a professional portfolio site using HTML/CSS.
 
 ## Recommended Assignment
 
